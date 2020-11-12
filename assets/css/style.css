@@ -1,8 +1,36 @@
-.bg-pink {
-    background-color: #660066;
-    
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+body *{
+    font-family: Godman, cursive;
 }
-.nav {
-    text-align: right;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #117a8b;
+}
+
+#inicio .jumbbotron {
+    background-image: url('../img/84977.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #ffffff;
+}
+
+#inicio hr {
+    height: 0.4;
     background-color: #ffffff;
 }
+
+#sobre-mi .content-header {
+    font-size: 1.56rem;
+}
+
+
