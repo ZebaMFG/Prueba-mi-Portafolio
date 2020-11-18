@@ -27,3 +27,5 @@ $('.card-title').click(function () {
 
     });
 }); 
+
+
